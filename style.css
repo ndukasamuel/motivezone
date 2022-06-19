@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, .work-container, #project, #carla, #nav-bar, #services{
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+#navbar{
+    background: url(./image/background.png) no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+}
+.container-holder{
+    margin: auto 15%;
+    padding-top: 20px;
+}
+.container-holder, .header-links ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-links ul a{
+    margin-right: 30px;
+}
+.header-links ul li, .header-links ul a{
+    list-style: none;
+    text-decoration: none;
+    justify-content: space-between;
+    color: white;
+}
+.header-image{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.btn{
+    padding: 10px 20px;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+}
+.content{
+    width: 35%;
+    margin: 12% 20%;
+    font-size: x-large;
+    color: white;
+}
+.content p {
+    font-size: medium;
+    margin: 5% auto;
+}
+.service{
+    display: flex;
+    width: 60%;
+    margin: auto;
+}
+.service-container{
+    margin: 5% auto;
+}
+#services .service-text{
+    width: 50%;
+    margin: auto ;
+    text-align: center;
+    padding-bottom: 4%;
+
+}
+.web, .ui, .graphics{
+    width: 40%;
+    padding-right: 15px;
+}
+.web h5, .ui h5, .graphics h5{
+    font-weight: 400;
+}
+
+/* section help */
+#help {
+    background:url(./image/BG.png) no-repeat;
+    background-size: cover;
+}
+.help-container{
+    display: flex;
+    margin: 0 0 0 20%;
+}
+.help-text, .help-image{
+    width: 50%;
+}
+.help-image img{
+    width: 95%;
+}
+.help-text{
+    padding: 10% 15% 0 0;
+}
+.help-text .btn{
+    margin: 5% auto;
+}
+.work-container{
+    display: flex;
+    width: 80%;
+}
+
+.work-text{
+    width: 40%;
+    padding: 5% 0;
+}
+.work-text h1{
+    padding: 5% 0;
+}
+
+.work-image{
+    width: 60%;
+}
+.work-image img{
+    width: 80%;
+    padding: 5% 0 0 10%;
+}
+input[type="email"] {
+    padding: 2%;
+    font-family: raleway;
+}
+.inpt{
+    margin-top: 5%;
+}
+/* project */
+
+#project{
+    background:url(./image/BG2.png) no-repeat;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+.top-project{
+    text-align: center;
+    padding: 5% 0 2% 0;
+    color: white;
+}
+.top-project h2{
+    margin-bottom: 10px;
+    
+}
+.project-box{
+    display: flex;
+    margin: auto 10%;
+    justify-content: space-around;
+    /* width: 100%; */
+}
+.project-box .close img{
+    width: 350px;
+    height: 400px;
+}
+.project-box p {
+    width: 300px;
+}
+.close-text h4{
+    margin: 15px 0 10px;
+    color: white;
+}
+.close-text p {
+    margin: 10px 0 10px;
+    color: white;
+}
+.close-text .fas{
+    margin: 10px 0 10px;
+    color: yellow;
+}
+.close-text .learn p {
+    margin: 10px 0 45px 0;
+    color: yellow;
+}
+/* carla */
+.carla{
+    display: flex;
+    margin: 5% 15% 0 15%;
+}
+.carla .carla-main img{
+    margin-top: -73px;
+    margin-left: 45px;
+    height: 300px;
+    width: auto;
+}
+.carla-img {
+    width: auto;
+    height: 400px;
+}
+.carla-text{
+    margin: 4% 10% 4% 3% ;
+}
+.carla-text p{
+    width: 100%;
+}
+.carla-text img{
+    width: 13%;
+    margin: 3% auto;
+}
+.imagecart {
+    display: flex;
+    height: 35px;
+    width: auto;
+    justify-content: space-between;
+    margin: 2% 18%;
+}
+#footer {
+    background: rgb(1, 16, 23);
+    color: white;
+}
+
+.footer-box {
+    display: flex;
+    margin: 0% 18%;
+    font-family: "Raleway",
+    sans-serif;
+}
+
+.set1 {
+    width: 40%;
+    padding-right: 70px
+}
+
+.set2,
+.set3 {
+    width: 20%;
+}
+
+.link a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.sf {
+    display: flex;
+    width: 100%;
+}
+
+input[type="textarea"] {
+    width: 90%;
+    padding: 10px;
+}
+
+input[type="submit"] {
+    width: 40%;
+    background: rgb(27, 73, 138);
+    color: white;
+    border: none;
+}
+
+.order p,
+.order h5 {
+    margin-bottom: 20px;
+}
+
+.set1 img {
+    padding-bottom: 20px;
+}
+
+.set2 h5,
+.set3 h5,
+.set1 h6 {
+    margin-bottom: 20px;
+}
+
+.footer-container img,
+.footer-container h5 {
+    margin-top: 50px;
+}
+
+.footer-container .divider {
+    height: 1px;
+    background: rgba(255, 255, 255, 0.623);
+    margin: 3% 18%;
+}
+
+.footer-box2 {
+    display: flex;
+    margin: 0% 18%;
+    font-family: "Raleway",
+    sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0 30px5;
+}
+
+.box1,
+box2 {
+    display: flex;
+    width: 33.3%;
+}
+
+.box2 img {
+    margin: 0px;
+}
+
+.box1 {
+    justify-content: space-between;
+}
